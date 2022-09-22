@@ -25,7 +25,7 @@ X_test = sc_X.transform(X_test)
 
 # Ajustar el Random Forest con el dataset
 from sklearn.ensemble import RandomForestRegressor
-regression = RandomForestRegressor(n_estimators = 300, random_state = 0)        # En estimator ponemos la cantidad de arboles que queremos, cuanto mas mas preciso es y en random cualquier numero
+regression = RandomForestRegressor(n_estimators = 300, random_state = 0)       
 regression.fit(X, y)
 
 # Predicción de nuestros modelos con Random Forest
